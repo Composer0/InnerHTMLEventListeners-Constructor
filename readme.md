@@ -1,0 +1,2 @@
+# Description
+A constructor is used to establish a list of objects to be used by event listeners to render requested data to user. A constructor is used for maintainability as it lists the requirements and allows each selection to be easily manipulated and new ones to be incorporated with relative ease.
