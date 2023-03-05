@@ -1,0 +1,236 @@
+
+ /* platform */
+ #platform {
+    /* background-color:#b4bbc7; */
+    background-color: grey;
+    /* background: linear-gradient(to right, #e9ebee, #e9ebee 50%, #272952 50%, #272952); */
+    padding:0px !important;
+    height: auto;
+    display: flex;
+    width: auto;
+    /* @media(max-width:900px) {
+        padding:40px           
+    }
+    @media(max-width:500px) {
+     padding:20px                   
+    }
+    .encompassplus {
+        max-width:350px;
+        width:100%;
+        padding-bottom:20px;
+    }
+    .platform-flex {
+        display:flex;
+        @media(max-width:900px) {
+            flex-direction: column;
+        }
+        .platform-box-lg {
+            background-image:url('https://integratedpayorsolutions.com/wp-content/uploads/2022/08/blue-background.jpg');
+            background-repeat:no-repeat;
+            background-size: cover;
+            background-position: center;
+            padding:30px;
+            display: flex;
+            margin-left:-75px;
+            @media(max-width:900px) {
+                margin-left:0;
+            }
+            img {
+                margin-bottom:10px;
+            }
+            .platform-box-lg-content {
+                align-self:center;
+                max-width:300px;
+                flex:1;
+                @media(max-width:900px) {
+                        margin:0 auto
+                }
+                h3 {
+                    font-size:16px;
+                    line-height: 24px;
+                    color: $ltBlue;
+                    font-weight: bold;
+                    margin-bottom:0;
+                    @media(max-width:900px) {
+                        text-align: center;
+                    }
+                }
+                p {
+                    color: white;
+                    font-weight: bold;
+                    @media(max-width:900px) {
+                        text-align: center;
+                    }
+                }
+            }
+        }
+        .platform-box-sm {
+            flex:1;
+            background-color:white;
+            padding:30px;
+            border:solid 1px $grey;
+            img {
+                display:block;
+                margin:0 auto;
+                padding-bottom:20px;
+            }
+            p {
+                color:$grey;
+                @media(max-width:900px) {
+                 text-align: center;       
+                }
+            }
+        }
+    } */
+}
+
+
+
+/* // !Button Functionality
+// !Left Side */
+.button-side{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    width: 50%;
+    padding-bottom: 40px;
+    background-color: grey;
+
+}
+
+.features-header{
+    font-size: 40px;
+    margin: 40px auto;
+    font-weight: bold;
+    color: #272952;
+    text-align: center;
+    padding: 0;
+    max-width: 550px;
+    width: 100%;
+}
+
+.btn-style {
+    background-color:#ffffff;
+    color: #fff;
+    border:none;
+    border-radius:10px;
+    color: #233899;
+    font-weight: bold;
+    align-items: center;
+    justify-content: center;
+    vertical-align: middle;
+    margin: 20px auto;
+    padding: 10px 10px;
+    text-align: center;
+   width: 100%;
+   max-width: 450px;
+    flex-direction: row;
+    
+    transition: all 0.2s;
+}
+
+.btn-style:hover {
+    background-color: #6eb1e1;
+    color: #fff;
+    cursor: pointer;
+}
+
+.img-left {
+    float: left;
+    align-items: center;
+    vertical-align: middle;
+}
+
+.btn-text {
+    font-size: 20px;
+    margin: 10px;
+}
+
+/* // !Right Side */
+.info-side{
+    width:50%; 
+    float: right; 
+    background-color: #272952;
+     /* background-image: url("https://a45350.actonservice.com/cdnr/forpci56/acton/attachment/45350/f-0d379440-bc0b-4a97-8801-a7b59301de36/1/-/-/-/-/rightside-background.png"); */
+    background-size:contain;
+    color:#fff;
+    margin: 40px;
+    margin-bottom: 40px;
+    display: flex;
+    flex-flow: column;
+    align-items: flex-start;
+    justify-content: center;
+    position: relative;
+}
+
+.encompass-right {
+    position: absolute;
+    top: 2rem;
+    right: 2rem;
+}
+
+.info-header{
+    font-size: 40px;
+    font-weight: bold;
+    margin: 20px 40px 20px;
+    line-height: 1;
+}
+
+.info-text{
+    font-size: 16px;
+    margin: 0 180px 0 40px;
+    line-height: 1.625;
+}
+
+.info-image{
+    margin-left: 40px;
+}
+
+.information {
+    margin: 0px;
+    padding: 40px;
+    font-size: 16px;
+}
+
+.info-bottom-image{
+    position: absolute;
+    bottom: 2rem;
+    right: 2rem;
+}
+
+
+/* // !Relavent Queries to this project. */
+@media (max-width:1350px){
+    .info-text{
+        margin: 0 100px 0 40px;
+    }
+}
+
+@media (max-width:1140px){
+    .info-text{
+        margin: 0 40px 0 40px;
+    }
+    .info-bottom-image{
+        display: none;
+    }
+}
+
+@media (max-width:940px){
+    #platform {
+        background: none;
+        display: flex;
+        flex-direction: column;
+        margin: 0;
+        padding: 0;
+    }
+    .button-side {
+        width: 100%;
+    }
+    .info-side {
+        width: 100%;
+    }
+    .info-image{
+        margin: 100px 40px 10px;
+    }
+}
